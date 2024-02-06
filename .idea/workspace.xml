@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea890cd0-265d-4f88-a778-79ced14fbf60" name="Changes" comment="Improved functionality according to task requirements" />
+    <list default="true" id="ea890cd0-265d-4f88-a778-79ced14fbf60" name="Changes" comment="Improved functionality according to task requirements">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booklibrary/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booklibrary/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booklibrary/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booklibrary/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/booklibrary/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/booklibrary/utils/ConsoleInputMock.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +30,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -68,6 +83,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Gradle.Build shop2.executor": "Run",
     "Gradle.MainTest.executor": "Run",
     "Gradle.library [:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -85,8 +101,10 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="booklibrary.Main" />
-      <module name="library.main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="shop.Main" />
+      <module name="shop2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="booklibrary.*" />
@@ -120,19 +138,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="library" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="library" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <recent_temporary>
       <list>
